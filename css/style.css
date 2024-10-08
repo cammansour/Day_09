@@ -116,7 +116,7 @@ ul.nav a:hover {
 .grid-container2 {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
 }
 
 .grid-item2 {
@@ -127,7 +127,56 @@ ul.nav a:hover {
 }
 
 .nav-menu2 {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 7;
     grid-row: 1;
 }
 
+.square1 {
+    grid-column: 1 / span 7;
+    grid-row: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+.square2 {
+    grid-column: 1 / span 5;
+    grid-row: 3;
+    font-weight: bolder;
+}
+.square3 {
+    grid-column: 6;
+    grid-row: 3;
+    background-color: black;
+}
+.square3:hover {
+    background-color: rgb(0, 170, 255);
+}
+.square4 {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+    font-weight: bolder;
+    
+}
+
+.square5 {
+    grid-column: 4 / span 3;
+    grid-row: 4;
+    background-color:black;
+
+}
+.square5:hover {
+    background-color: rgb(0, 170, 255);
+}
+.square6 {
+    grid-column: 1 / span 6;
+    grid-row: 5;
+    font-size: small;
+}
+.square7{
+    grid-column: 1 / span 6;
+    grid-row: 6;
+}
+.sidenav-section2 {
+    grid-column: 7;
+    grid-row: 3 / span 7;
+    /* i span it down or else it resizes row 3 (stretching it) */
+}
