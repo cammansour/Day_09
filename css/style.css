@@ -30,7 +30,7 @@ ul.nav a:hover {
 }
 
 
-/*==============================CSS GRID DIV==================================*/
+/*==============================CSS GRID DIV1==================================*/
 
 .grid-container {
     display: grid;
@@ -42,7 +42,7 @@ ul.nav a:hover {
     text-align: center;
     font-size: 30px;
     padding: 20px;
-    background-color: lightblue;
+    background-color: red;
 }
 
 .nav-menu {
@@ -50,37 +50,84 @@ ul.nav a:hover {
     grid-row: 1;
 }
 
-.reed-section {
+/* .example-section {
     grid-column: 1 / span 2;
     grid-row: 2;
-}
+} */
 
-.cameron-section {
-    grid-column: 3 / span 1;
+/* Row 2 */
+.image-section {
+    grid-column: 1 / span 3;
     grid-row: 2;
+    background-color: yellow;
 }
-
-.whitley-section {
-    grid-column: 1 / span 1;
+/* ROW  */
+.main1-section {
+    grid-column: 1 / span 2;
     grid-row: 3;
+    background-color: orange;
 }
 
-.alex-section {
-    grid-column: 2 / span 1;
-    grid-row: 3;
+.sidenav-section {
+    grid-column: 3;
+    grid-row: 3 / span 3;  
+    background-color: yellow;
 }
 
-.xinyuan-section {
-    grid-column: 3 / span 1;
-    grid-row: 3;
+/* ROW */
+.support1-section {
+    grid-column: 1;
+    grid-row: 4 / span 1;  
+    background-color: yellow;
+}
+.support2-section {
+    grid-column: 2;
+    grid-row: 4 / span 1;  
+    background-color: yellow;
 }
 
-.nathan-section {
-    grid-column: 1 / span 1;
-    grid-row: 4;
+
+/* ROW */
+
+.main2-section {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+    background-color: orange;
 }
 
-.tarek-section {
-    grid-column: 2 / span 2;
-    grid-row: 4;
+
+
+/* FOOTER */
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
+
+
+/* GRID 2  */
+
+.grid-container2 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background-color: rgb(0, 170, 255);
+}
+
+.nav-menu2 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
